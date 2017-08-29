@@ -8,7 +8,7 @@ import {RecipesService} from './recipes.service';
     <div class="container-fluid"> 
     <div class="row align-items-center">     
   <div class="col-md-3">   
-  <h1>{{title}}</h1>
+  <h1>{{title}}</h1>  
   <h2>search 4 recipe:</h2>        
   <input placeholder="serach for a recipe..." [(ngModel)]="search">
   <ul>

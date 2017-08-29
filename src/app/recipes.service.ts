@@ -21,10 +21,11 @@ export class RecipesService {
     
     }
     getRecipesList(){
-        return this.RECIPES;
-    }
-//   getItems(): Promise<Recipe[]> {
-//   return Promise.resolve(RECIPES);
+    return this.RECIPES;
+    // getItems(): Promise<Recipe[]> {
+    // return Promise.resolve(RECIPES);
+    // }
+}
 }
 
 
